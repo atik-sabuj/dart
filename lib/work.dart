@@ -39,3 +39,83 @@ void main() {
     stdout.writeln();
   }
 }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import 'dart:io';
+
+//void main() {
+
+
+/*  int rows = 6;
+  for(int i = 0 ; i< rows; i++)
+  {
+    for(int j = 0; j<=i;j++)
+    {
+      stdout.write('* ');
+    }
+    stdout.writeln();
+  }*/
+
+
+/*int add = 0;
+  for(int i = 0; i < 4; ++i) {
+    for(int j = 0; j < 3; j++) {
+      add++;
+      print('$add');
+      print('Value of i,j is $i,$j');
+
+    }
+  }*/
+
+/* int add = 0;
+  for(int i = 0; i < 5; i++) {
+    for(int j = 0; j < 2; j++) {
+      for (int k = 0; k < 4; k++) {
+        add = i + j + k;
+        print('Value of i,j and k is $i,$j,$k');
+        print('add = $add');
+      }
+    }
+  }*/
+
+/*  for(int i = 0; i < 4; i++) {
+    for(int j = 0; j < 3; j++) {
+      for (int k = 0; k < 2; k++) {
+        print('Value of i,j and k is $i,$j,$k');
+      }
+    }
+  }*/
+
+
+/*
+  for(int i = 1; i <= 4; ++i) {
+    for(int j = 1; j <= i; ++j) {
+      print('* ');
+    }
+    print('\n');
+  }
+*/
+
+
+/*
+  int value = 0;
+  for(int i = 0; i< 5 ; i++) {
+    for(int j = 0; j< 5; j++) {
+      print('Value of i and j is $i,$j');
+      value++;
+      print('$value');
+    }
+  }
+*/
