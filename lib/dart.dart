@@ -1,4 +1,70 @@
+//import 'dart:io';
+
 void main() {
+
+
+/*  int rows = 6;
+  for(int i = 0 ; i< rows; i++)
+  {
+    for(int j = 0; j<=i;j++)
+    {
+      stdout.write('* ');
+    }
+    stdout.writeln();
+  }*/
+
+
+/*int add = 0;
+  for(int i = 0; i < 4; ++i) {
+    for(int j = 0; j < 3; j++) {
+      add++;
+      print('$add');
+      print('Value of i,j is $i,$j');
+
+    }
+  }*/
+
+/* int add = 0;
+  for(int i = 0; i < 5; i++) {
+    for(int j = 0; j < 2; j++) {
+      for (int k = 0; k < 4; k++) {
+        add = i + j + k;
+        print('Value of i,j and k is $i,$j,$k');
+        print('add = $add');
+      }
+    }
+  }*/
+
+/*  for(int i = 0; i < 4; i++) {
+    for(int j = 0; j < 3; j++) {
+      for (int k = 0; k < 2; k++) {
+        print('Value of i,j and k is $i,$j,$k');
+      }
+    }
+  }*/
+
+
+/*
+  for(int i = 1; i <= 4; ++i) {
+    for(int j = 1; j <= i; ++j) {
+      print('* ');
+    }
+    print('\n');
+  }
+*/
+
+
+/*
+  int value = 0;
+  for(int i = 0; i< 5 ; i++) {
+    for(int j = 0; j< 5; j++) {
+      print('Value of i and j is $i,$j');
+      value++;
+      print('$value');
+    }
+  }
+*/
+
 
 //First Code
 /*print("Hello Dart");*/
@@ -17,14 +83,11 @@ print($money);*/
 /*int cart_item = 10;
 double price = 50.20;
 String city = "Rangpur";
-
 print(cart_item);
 print(price);
 print(city);
-
 bool is_completed = true;
 print(is_completed);
-
 bool is_login = false;
 print(is_login);*/
 
@@ -33,11 +96,9 @@ print(is_login);*/
 /*var quantity = 200.75;
 print(quantity);
 print(quantity.runtimeType);
-
 var quantity2 = true;
 print(quantity2);
 print(quantity2.runtimeType);
-
 var quantity3 = "20 KG";
 print(quantity3);
 print(quantity3.runtimeType);*/
@@ -471,8 +532,6 @@ if (a == 10) {
   }*/
 
 
-
-
 // End of Control Flow Statements
 // Loop : for Loop
 /*
@@ -484,7 +543,6 @@ for(var i=0; i<student.length; i++){
 /*  for(var i=0; i<10; i++){
     print(i);
   }*/
-
 
 
 // Loop : while Loop
@@ -522,8 +580,6 @@ do {
 } while(is_fetching);*/
 
 
-
-
 //Loop : for-in loop with List
 /*var student =['Sabuj', 'Atik', 'Zaman'];
 for (var stu in student) {
@@ -556,7 +612,6 @@ student.forEach((value) => print(value));*/
   student.asMap().forEach((i, value) => print('$i = $value'));  //List ke Map banaiye Index and value show kore*/
 
 
-
 //Loop : forEach Loop with Set
 /*var student = {'Atik', 'Samsad', 'Lipon'};
 student.forEach((value) => print(value));*/
@@ -570,7 +625,14 @@ var address1 = {'name': 'Piyas', 'city': 'Rangpur', 'zone': 'Mithapukur'};
 address1.forEach((x,y) => print('$x = $y'));*/
 
 
-
+//Loop : Nested Loop
+/*  int value = 0;
+  for(int i = 0; i< 5 ; i++) {
+    for(int j = 0; j< 5; j++) {
+      print('Value of i and j is $i,$j');
+      value++;
+      print('$value');
+    }*/
 
 
 //Break and Continue
@@ -598,7 +660,6 @@ while (is_fetching) {
   print("Data Fetching.... $n");
 }
 */
-
 
 
 //Switch and Case
@@ -744,5 +805,7 @@ student.forEach((value) {
 
 
 //End of Function
+// Class and Object: Next Page(Dart_two)
 
-//}
+}
+
