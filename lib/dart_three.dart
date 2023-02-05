@@ -2,9 +2,9 @@
 
 void main() {
 //Creating an Object
-var obj = Mobile("SAM 100" , 4);
+  var obj = Mobile("SAM 100" , 4);
 //Calling Instance Method
-obj.show(); //print
+  obj.show(); //print
 }
 
 class Mobile {
@@ -17,7 +17,7 @@ class Mobile {
 
 //Instance Method
   show() {
-  print(model);
-  print(ram);
+    print(model);
+    print(ram);
   }
 }
