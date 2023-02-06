@@ -100,14 +100,53 @@ void main() {
   }
 */
 
-
-  int value = 0;
-  for(int i = 0; i< 5 ; i++) {
-    for(int j = 0; j< 5; j++) {
-      print('Value of i and j is $i,$j');
-      value++;
-      print('$value');
+/*  for(int i = 0 ; i< 6; i++)
+  {
+    for(int j = 0; j<=i;j++)
+    {
+      stdout.write('* ');
     }
+    stdout.writeln();
+  }*/
+
+ /* for(int i = 0; i< 5 ; i++) {
+    stdout.write('${i} = ');
+    for(int j = 0; j< 5; j++) {
+      stdout.write('${i*5+j+1} ');
+    }
+    stdout.writeln();
+  }*/
+
+    /*for(int i = 0 ; i< 5; i++)
+    {
+      for(int j = 0; j< 5; j++)
+      {
+        //print('$i,$j');
+        stdout.write("");
+      }
+      for(int k=0;k<=5;k++){
+        stdout.write("* ");
+      }
+
+      stdout.writeln();
+    }*/
+
+/*  for(int i = 0; i< 5 ; i++) {
+    for(int j = 0; j< 5; j++) {
+      stdout.write('${i*5+j+1} ');
+
+    }
+    stdout.writeln();
+  }*/
+
+//Type 1 to 25 in 2D :
+  for(int i = 0; i< 5 ; i++) {
+    stdout.write('${i} = ');
+    for(int j = 0; j< 5; j++) {
+      stdout.write('${i*5+j+1} ');
+    }
+    stdout.writeln();
   }
 
-}
+
+  }
