@@ -1,5 +1,4 @@
 //Method Overriding
-import 'package:dart/hierarchical_inheritance.dart';
 
 void main() {
   var obj = Son();
