@@ -1,11 +1,13 @@
-/*
+import 'dart:io';
+
 void main() {
-  for(int i = 0; i< 5 ; i++) {
+
+/*  for(int i = 0; i< 5 ; i++) {
     for(int j = 0; j< 5; j++) {
       print(i+j);
     }
-  }
-}*/
+  }*/
+
 
 /*
 void main()
@@ -41,32 +43,22 @@ void main() {
 }*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //import 'dart:io';
 
 //void main() {
 
 
-/*  int rows = 6;
-  for(int i = 0 ; i< rows; i++)
+
+/*
+  for(int i = 0 ; i< 6; i++)
   {
     for(int j = 0; j<=i;j++)
     {
       stdout.write('* ');
     }
     stdout.writeln();
-  }*/
+  }
+*/
 
 
 /*int add = 0;
@@ -109,7 +101,6 @@ void main() {
 */
 
 
-/*
   int value = 0;
   for(int i = 0; i< 5 ; i++) {
     for(int j = 0; j< 5; j++) {
@@ -118,4 +109,5 @@ void main() {
       print('$value');
     }
   }
-*/
+
+}
