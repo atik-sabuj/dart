@@ -48,7 +48,6 @@ void main() {
 //void main() {
 
 
-
 /*
   for(int i = 0 ; i< 6; i++)
   {
@@ -109,7 +108,7 @@ void main() {
     stdout.writeln();
   }*/
 
- /* for(int i = 0; i< 5 ; i++) {
+  /* for(int i = 0; i< 5 ; i++) {
     stdout.write('${i} = ');
     for(int j = 0; j< 5; j++) {
       stdout.write('${i*5+j+1} ');
@@ -117,7 +116,7 @@ void main() {
     stdout.writeln();
   }*/
 
-    /*for(int i = 0 ; i< 5; i++)
+  /*for(int i = 0 ; i< 5; i++)
     {
       for(int j = 0; j< 5; j++)
       {
@@ -139,14 +138,71 @@ void main() {
     stdout.writeln();
   }*/
 
-//Type 1 to 25 in 2D :
+/*//Type 1 to 25 in 2D :
   for(int i = 0; i< 5 ; i++) {
     stdout.write('${i} = ');
     for(int j = 0; j< 5; j++) {
       stdout.write('${i*5+j+1} ');
     }
     stdout.writeln();
+  }*/
+
+/*  int rows = 8;
+//Prints upper half pattern
+  for (int i = 1; i <= rows; i++) {
+    for (int j = 1; j <= i; j++) {
+      stdout.write("$i,$j ");
+    }
+    stdout.writeln();
   }
+//prints lower half pattern
+  for (int i = rows - 1; i >= 1; i--) {
+    for (int j = 1; j <= i; j++) {
+      stdout.write("$i,$j ");
+    }
+    stdout.writeln();
+  }*/
+/*  int alphabet = 65;
+  for (int i = 0; i <= 8; i++) {
+    for(int j = 0;j<=i;j++)
+    {
+      stdout.write('${String.fromCharCode(alphabet+j)} ');
+    }
+    stdout.writeln();
+  }*/
 
+/*  int n = 4;
+  for (int i = 0; i < n; i++) {
+    for (int j = (n - i); j > 1; j--) {
+      stdout.write(" ");
+    }
+    for (int j = 0; j <= i; j++) {
+      stdout.write("* ");
+    }
 
+  }*/
+
+/*  int n = 4;
+  for(int i = 0 ; i< n; i++)
+  {
+    for(int j=(n-i);j>1;j--){
+      stdout.write(" ");
+    }
+    for (int j = 0; j <= i; j++) {
+     stdout.write("* ");
+    }
+    stdout.writeln();
+  }*/
+
+  int n = 4;
+  for(int i = 0 ; i< n; i++)
+  {
+      for(int j=(n-i);j>1;j--){
+      stdout.write(" ");
+    }
+    for (int j = 0; j <= i; j++) {
+      stdout.write("+ ");
+    }
+    stdout.writeln();
+  }
   }
