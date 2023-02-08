@@ -194,7 +194,7 @@ void main() {
     stdout.writeln();
   }*/
 
-  int n = 4;
+/*  int n = 4;
   for(int i = 0 ; i< n; i++)
   {
       for(int j=(n-i);j>1;j--){
@@ -204,5 +204,18 @@ void main() {
       stdout.write("+ ");
     }
     stdout.writeln();
+  }*/
+
+  int n = 9;
+  for (int i = 0; i < n; i++) {
+    if(i != 4 ) {
+      stdout.write(" ");
+    }
+    for (int j = 0; j < n; j++) {
+      if (i == 4 || j == 4) {
+        stdout.write("* ");
+      }
+    }
+    stdout.writeln();
   }
-  }
+}
