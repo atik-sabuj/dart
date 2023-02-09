@@ -1,5 +1,9 @@
 void main() {
 // Loop : for Loop
+/*  for(initialization; condition; increment/decrement){
+    statements;
+  }*/
+
 /*
 var student = ['Atik', 'Sabuj', 'Ebu', 'Utpaul', 'Kabir'];
 for(var i=0; i<student.length; i++){
@@ -9,6 +13,36 @@ for(var i=0; i<student.length; i++){
 /*  for(var i=0; i<10; i++){
     print(i);
   }*/
+
+ /* for (int i = 1; i <= 10; i++) {
+    print(i);
+  }*/
+
+/*
+  for (int i = 10; i >= 1; i--) {
+    print(i);
+  }
+*/
+
+ /* for (int i = 0; i < 10; i++) {
+    print("PK");
+  }*/
+
+/*  int total = 0;
+  int n = 100; // change as per required
+
+  for(int i=1; i<=n; i++){
+    total = total + i;
+  }
+  print("Total Addition is $total");*/
+
+/*  for(int i=1; i<=50; i++){
+    if(i%2 == 0){
+      print('Even Numbers: $i');
+    }
+  }*/
+
+
 
 
 // Loop : while Loop
@@ -74,8 +108,31 @@ for(var value in address.values) {
 /*var student = ['Sabuj','Atik','Lipon'];
 student.forEach((value) => print(value));*/
 
-/*  var student = ['Rafid','Kartik','Abdul'];
-  student.asMap().forEach((i, value) => print('$i = $value'));  //List ke Map banaiye Index and value show kore*/
+  /*List<String> footballplayers=['Ronaldo','Messi','Neymar','Hazard'];
+  footballplayers.forEach( (names)=>print(names));*/
+
+/*  List<int> numbers = [1,2,3,4,5,6];
+  int total = 0;
+  numbers.forEach( (num)=>total= total+ num);
+  print("Total is $total.");
+  double avg = total / (numbers.length);
+  print("Average is $avg.");*/
+
+/*  List<String> footballplayers=['Ronaldo','Messi','Neymar','Hazard'];
+  for(String player in footballplayers){
+    print(player);
+  }*/
+
+  /*var student = ['Rafid','Kartik','Abdul'];  //List ke Map banaiye Index and value show kore
+  student.asMap().forEach((i, value) => print('$i = $value'));*/
+
+/*  List<String> footballplayers=['Ronaldo','Messi','Neymar','Hazard'];
+  footballplayers.asMap().forEach((index, value) => print("$value index is $index"));*/
+
+/*  String name = "Atik";  //Unicode of Alphabet
+  for(var codePoint in name.runes){
+    print("Unicode of ${String.fromCharCode(codePoint)} is $codePoint.");
+  }*/
 
 
 //Loop : forEach Loop with Set
