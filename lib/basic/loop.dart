@@ -60,6 +60,22 @@ while(i<student.length){
 }*/
 
 /*
+  int i = 10;
+  while (i >= 1) {
+    print('$i');
+    i--;
+  }
+*/
+
+/*  int i = 1;
+  while(i<=50){
+    if(i%2 == 0){
+      print('$i');
+    }
+    i++;
+  }*/
+
+/*
 var is_fetching = true;
 while (is_fetching) {
   print("Data Fetchig....");
@@ -68,11 +84,25 @@ while (is_fetching) {
 
 
 // Loop : do-while Loop
-/*var n = 1;
+/*
+var n = 1;
 do{
   print("Number $n");
   n++;
-} while (n <= 3);*/
+} while (n <= 3);
+*/
+
+/*  int i = 1;
+  do {
+    print('$i');
+    i++;
+  } while (i <= 10);*/
+
+/*  int number = 5;
+  do{
+    print("Hello");
+    number--;
+  }while(number >1);*/
 
 /*var is_fetching = true;
 do {
@@ -169,7 +199,40 @@ while (is_fetching) {
   print("Data Fetching.... $n");
 }*/
 
+/*  for (int i = 10; i >= 1; i--) {
+    if (i == 7) {
+      break;
+    }
+    print('$i');
+  }*/
+/*  for (int i = 1; i <= 10; i++) {
+    if (i == 5) {
+      continue;
+    }
+    print('$i');
+  }*/
+
+/*  int i = 1;
+  while (i <= 10) {
+    if (i == 3) {
+      i++;
+      continue;
+    }
+    print(i);
+    i++;
+  }*/
+
 /*
+
+  int i = 1;
+  while (i <= 10) {
+    if (i == 3) {
+      i++;
+      continue;
+    }
+    print(i);
+    i++;
+  }
 var is_fetching = true;
 var n = 0;
 while (is_fetching) {
@@ -183,6 +246,15 @@ while (is_fetching) {
   print("Data Fetching.... $n");
 }
 */
+
+/*  int i =1;
+  while(i<=10){
+    print(i);
+    if (i == 5) {
+      break;
+    }
+    i++;
+  }*/
 
 
 //Switch and Case
@@ -203,6 +275,32 @@ switch (command) {
   default:
     print('Invalid Ticket');
 }*/
+
+/*  var dayOfWeek = 4;
+  if (dayOfWeek == 1) {
+    print("Day is Sunday.");
+  }
+  else if (dayOfWeek == 2) {
+    print("Day is Monday.");
+  }
+  else if (dayOfWeek == 3) {
+    print("Day is Tuesday.");
+  }
+  else if (dayOfWeek == 4) {
+    print("Day is Wednesday.");
+  }
+  else if (dayOfWeek == 5) {
+    print("Day is Thursday.");
+  }
+  else if (dayOfWeek == 6) {
+    print("Day is Friday.");
+  }
+  else if (dayOfWeek == 7) {
+    print("Day is Saturday.");
+  }else{
+    print("Invalid Weekday.");
+  }*/
+
 //End of Loop
 
 }
