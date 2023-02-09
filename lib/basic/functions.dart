@@ -116,11 +116,63 @@ student.forEach((value) {
   print(value);
 });*/
 
+/*    var cube = (int number) {
+      return number * number * number;
+    };
+    print("The cube of 2 is ${cube(2)}");
+    print("The cube of 3 is ${cube(3)}");*/
+
+
 //Function : Arrow Function
 
-  var student = ['Sabuj', 'Jewel', 'Antor'];
-  student.forEach((value) => print(value));
+/*  var student = ['Sabuj', 'Jewel', 'Antor'];
+  student.forEach((value) => print(value));*/
+
+// function that calculate interest
+/*  double calculateInterest(double principal, double rate, double time) {
+    double interest = principal * rate * time / 100;
+    return interest;
+  }
+    double principal = 5000;
+    double time = 3;
+    double rate = 3;
+    double result = calculateInterest(principal, rate, time);
+    print("The simple interest is $result.");*/
+
+
+/*  int add(int n1, int n2) => n1 + n2;
+  int sub(int n1, int n2) => n1 - n2;
+  int mul(int n1, int n2) => n1 * n2;
+  double div(int n1, int n2) => n1 / n2;
+
+    int num1 = 49;
+    int num2 = 7;
+
+    print("The sum is ${add(num1, num2)}");
+    print("The diff is ${sub(num1, num2)}");
+    print("The mul is ${mul(num1, num2)}");
+    print("The div is ${div(num1, num2)}");*/
+
+//End of Function
+
+/*  void printInfo(String name, String gender, [String title = "sir/ma'am"]) {
+    print("Hello $title $name your gender is $gender.");
+  }
+    printInfo("John", "Male");
+    printInfo("John", "Male", "Mr.");
+    printInfo("Kavya", "Female");
+    printInfo("Kavya", "Female", "Ms.");*/
+
+/*  void add(int num1, int num2, [int num3=0]){
+    int sum;
+    sum = num1 + num2 + num3;
+    print("The sum is $sum");
+  }
+    add(10, 20);
+    add(10, 20, 30);
+    add(10, 20);
+    add(10, 20, -5);*/
 
 }
-//End of Function
+
 
