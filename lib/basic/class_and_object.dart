@@ -17,7 +17,7 @@ void main() {
   print(Mobile.memory);
 }
 
-  class Mobile {
+class Mobile {
   //Instance Variable
   late String model;
   int ram = 4;
@@ -31,9 +31,9 @@ void main() {
   static int memory = 12;
   //Static Variable
   static addExtraMemory(extra) {
-  memory = memory + 8; // add extra memory
-  return memory;
-}
+    memory = memory + 8; // add extra memory
+    return memory;
+  }
 
 }
 
