@@ -206,7 +206,7 @@ void main() {
     stdout.writeln();
   }*/
 
-  int n = 9;
+/*  int n = 9;
   for (int i = 0; i < n; i++) {
     if(i != 4 ) {
       stdout.write(" ");
@@ -217,5 +217,44 @@ void main() {
       }
     }
     stdout.writeln();
+  }*/
+/*  var n = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+  for (var i = n; i <= n; ++i) {
+    for (var j = 2; i <= j /j; ++j) {
+      if (i % j == 0) {
+        continue a;
+      }
+    }
+    stdout.write(i);
+    stdout.write(' ');
+  }*/
+  //var num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+    /*int i,m=0,flag=0;
+    int num = 5;
+    m=num~/2;
+    for(i = 2;i<=m;i++){
+      if(num%i == 0){
+        print('$num is not a prime number');
+        flag=1;
+        break;
+      }
+    }
+    if(flag==0){
+      print('$num is prime number');
+    }
+*/
+
+ /* introfun(String name, int roll) {
+    return 'My name is $name and my roll no is $roll';
   }
-}
+    var info = introfun("Atik", 8);
+    print(info);*/
+
+
+
+
+  }
+
+
+
+

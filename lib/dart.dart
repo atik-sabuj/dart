@@ -618,7 +618,7 @@ switch (command) {
 
 // Function : Define Rules
 /*# Defining a Function
-returnType function_name(datatype parameter) {
+  returnType function_name(datatype parameter) {
   statements
   return statement
 }
