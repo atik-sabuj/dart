@@ -305,12 +305,19 @@ print(t);
 print(u);
 print(v);*/
 
-double feet,meter,km;
+/*double feet,meter,km;
 feet = 60.80;
 meter = feet/3;
 km = meter/1000;
 print('meters : $meter');
-print('kilometrs : $km');
+print('kilometrs : $km');*/
+
+/*double celsius,fahrenheit;
+celsius = 30;
+fahrenheit = celsius*(9/5)+32;
+print('When Celsious is $celsius, then Farenhite is $fahrenheit');*/
+
+
   }
 
 
