@@ -250,6 +250,31 @@ void main() {
     var info = introfun("Atik", 8);
     print(info);*/
 
+ /* introfun(String name,[String city = 'Sylhet']) {
+    return 'I am $name from $city';
+  }
+  var info = introfun('Atik', 'Delhi');
+  print(info);*/
+
+/*  addfun({a, b}) {
+    print('A = $a');
+    print('B = $b');
+  }
+  addfun(b: "SAM", a: 20);*/
+
+/*  addfun(x,{required int a, required int b}) {
+    print('A = $a');
+    print('B = $b');
+    print('X = $x');
+  }
+  addfun(b: 10, a: 20,"Sabuj",);*/
+
+/*  var student = ['Sabuj', 'Jewel', 'Antor'];
+  student.forEach((value) {
+    print(value);
+  });*/
+  var items = ['Completed', 'Panding', 'Expired'];
+  items.forEach((value) => print(value));
 
 
 
