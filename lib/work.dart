@@ -273,8 +273,18 @@ void main() {
   student.forEach((value) {
     print(value);
   });*/
-  var items = ['Completed', 'Panding', 'Expired'];
-  items.forEach((value) => print(value));
+/*  var items = ['Completed', 'Panding', 'Expired'];
+  items.forEach((value) => print(value));*/
+int num1, num2,result;
+num1 = 50;
+num2 = 40;
+print(num2);
+num2 = -10;
+print(num2);
+result = num1 + num2;
+print(num1);
+print(num2);
+print(result);
 
 
 
