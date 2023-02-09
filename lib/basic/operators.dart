@@ -1,5 +1,18 @@
 void main() {
 //Operators- Arithmatic
+  /*
+      true && true = true
+      true && false = false
+      false && true = false
+      false && false = false
+      true || true = true
+      true || false = true
+      false || true = true
+      false || false = false
+      ((a == b) && (c == d));
+      ((a == b) || (c == d));
+  */
+
 /*var a = 10;
 var b = 20;
 var c = 50;
