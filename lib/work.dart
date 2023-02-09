@@ -275,6 +275,7 @@ void main() {
   });*/
 /*  var items = ['Completed', 'Panding', 'Expired'];
   items.forEach((value) => print(value));*/
+/*
 int num1, num2,result;
 num1 = 50;
 num2 = 40;
@@ -285,9 +286,31 @@ result = num1 + num2;
 print(num1);
 print(num2);
 print(result);
+*/
+/*int a,b,p,q,r,v;
+var t,u;
+a = 5;
+b = 2;
+p = a+b;
+q = a-b;
+r = a*b;
+t = a/b;
+u =~ a/b;
+v = a%b;
 
+print(p);
+print(q);
+print(r);
+print(t);
+print(u);
+print(v);*/
 
-
+double feet,meter,km;
+feet = 60.80;
+meter = feet/3;
+km = meter/1000;
+print('meters : $meter');
+print('kilometrs : $km');
   }
 
 
