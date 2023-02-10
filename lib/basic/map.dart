@@ -187,7 +187,7 @@ print(address2.runtimeType);
 
 
 //Remove Where In Dart Map:
-  Map<String, double> mathMarks = {
+/*  Map<String, double> mathMarks = {
     "ram": 30,
     "mark": 32,
     "harry": 88,
@@ -195,7 +195,21 @@ print(address2.runtimeType);
     "john": 15,
   };
   mathMarks.removeWhere((key, value) => value < 32);
-  print(mathMarks);
+  print(mathMarks);*/
+
+//Filter Days Start With "S" :
+  List<String> days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
+  List<String> startWithS =
+  days.where((element) => element.startsWith("S")).toList();
+  print(startWithS);
 
 }
 //End Of Map
