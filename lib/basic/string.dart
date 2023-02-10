@@ -88,7 +88,17 @@ print(str2.split(''));
 
 var str3 = 'Hello&Atik';
 print(str3.split('&'));// Wordwise alada kore List e dekhay*/
-}
 
+//SubString:
+/*  String text = "I love computer";
+  print("Print only computer: ${text.substring(7)}"); // from index 6 to the last index
+  print("Print only love: ${text.substring(2,6)}");*/
+
+/*  String input = "Hello";
+  print("$input Reverse is ${input.split('').reversed.join()}");*/
+
+  String text = "hello world";
+  print("Capitalized first letter of String: ${text[0].toUpperCase()}${text.substring(1)}");
 
 //End of String
+}
