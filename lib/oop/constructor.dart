@@ -7,6 +7,8 @@ class ClassName {
   }
 }*/
 
+
+
 //How To Declare Constructor:
 /*
 class Student {
@@ -29,6 +31,10 @@ void main() {
   print("Roll Number: ${student.rollNumber}");
 }
 */
+
+
+
+
 
 /*class Teacher {
   String? name;
@@ -60,7 +66,11 @@ void main() {
 }*/
 
 
-class Car {
+
+
+
+
+/*class Car {
   String? name;
   double? price;
   //Constructor
@@ -78,4 +88,59 @@ void main() {
   //Here car is object of class Car.
   Car car = Car("BMW", 500000.0);
   car.display();
+}*/
+
+
+
+
+
+
+
+//Constructor Single Line:
+/*
+class Person{
+  String? name;
+  int? age;
+  String? subject;
+  double? salary;
+  // Constructor in short form
+  Person(this.name, this.age, this.subject, this.salary);
+  // display method
+  void display(){
+    print("Name: ${this.name}");
+    print("Age: ${this.age}");
+    print("Subject: ${this.subject}");
+    print("Salary: ${this.salary}");
+  }
+}
+void main(){
+  Person person = Person("John", 30, "Maths", 50000.0);
+  person.display();
+}*/
+
+
+
+
+
+
+
+//Constructor With Optional Parameters:
+class Employee {
+  String? name;
+  int? age;
+  String? subject;
+  double? salary;
+  // Constructor
+  Employee(this.name, this.age, [this.subject = "N/A", this.salary=0]);
+  // Method
+  void display() {
+    print("Name: ${this.name}");
+    print("Age: ${this.age}");
+    print("Subject: ${this.subject}");
+    print("Salary: ${this.salary}");
+  }
+}
+void main(){
+  Employee employee = Employee("John", 30);
+  employee.display();
 }
