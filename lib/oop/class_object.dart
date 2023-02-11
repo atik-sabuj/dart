@@ -61,6 +61,7 @@ void main() {
 
 
 //Declaring Car Class Object:
+/*
 class Car {
   String? name;
   String? color;
@@ -85,4 +86,27 @@ void main() {
   car2.color = "Black";
   car2.numberOfSeats = 4;
   car2.start();
+}
+*/
+
+
+//Declaring Library Class Object:
+class Library {
+  String? name;
+  int? noOfBooks;
+  int? noOfReaders;
+
+  void lib_data() {
+    print("Library Name is: $name");
+    print("Number of Books: $noOfBooks");
+    print("Number of Readers: $noOfReaders");
+  }
+}
+
+void main() {
+  Library library = Library();
+  library.name = "City Library";
+  library.noOfBooks = 1500;
+  library.noOfReaders = 700;
+  library.lib_data();
 }
