@@ -30,7 +30,7 @@ void main(){
 
 
 //Parameterized Constructor With Named Parameters:
-class Student {
+/*class Student {
   String? name;
   int? age;
   int? rollNumber;
@@ -47,4 +47,27 @@ void main(){
   print("Name: ${student.name}");
   print("Age: ${student.age}");
   print("Roll Number: ${student.rollNumber}");
+}*/
+
+
+
+
+//Parameterized Constructor With Default Values:
+class Student {
+  String? name;
+  int? age;
+  // Constructor
+  Student({String? name = "John", int? age = 0}) {
+    this.name = name;
+    this.age = age;
+  }
 }
+void main(){
+  // Here student is object of class Student.
+  Student student = Student();
+  print("Name: ${student.name}");
+  print("Age: ${student.age}");
+}
+
+
+
