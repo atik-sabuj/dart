@@ -207,8 +207,10 @@ print(address2.runtimeType);
     "Friday",
     "Saturday"
   ];
+
   List<String> startWithS =
   days.where((element) => element.startsWith("S")).toList();
+
   print(startWithS);
 
 }
