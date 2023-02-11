@@ -125,6 +125,7 @@ void main(){
 
 
 //Constructor With Optional Parameters:
+/*
 class Employee {
   String? name;
   int? age;
@@ -143,4 +144,45 @@ class Employee {
 void main(){
   Employee employee = Employee("John", 30);
   employee.display();
+}*/
+
+
+
+
+
+//Constructor With Named Parameters;
+/*class Chair {
+  String? name;
+  String? color;
+// Constructor
+  Chair({this.name, this.color});
+// Method
+  void display() {
+    print("Name: ${this.name}");
+    print("Color: ${this.color}");
+  }
+}
+void main(){
+  Chair chair = Chair(name: "Kakoli Chair", color: "Red");
+  chair.display();
+}*/
+
+
+
+
+//Constructor With Default Values:
+class Table {
+  String? name;
+  String? color;
+  // Constructor
+  Table({this.name = "Big Table", this.color = "White"});
+  // Method
+  void display() {
+    print("Name: ${this.name}");
+    print("Color: ${this.color}");
+  }
+}
+void main(){
+  Table table = Table();
+  table.display();
 }
