@@ -49,3 +49,74 @@ void main() {
   print("Month is " + myConvertedDate.month.toString());
   print("Day is " + myConvertedDate.day.toString());
 }*/
+
+
+
+
+
+//Example Add Date In Dart:
+/*
+void main() {
+  DateTime myBirthday = DateTime.parse("1997-05-14");
+  myBirthday = myBirthday.add(Duration(days: 3));
+  print("Year is " + myBirthday.year.toString());
+  print("Month is " + myBirthday.month.toString());
+  print("Day is " + myBirthday.day.toString());
+}*/
+
+
+
+
+
+//Example Subtract Date In Dart:
+/*
+void main() {
+  DateTime myBirthday = DateTime.parse("1997-05-14");
+  myBirthday = myBirthday.subtract(Duration(days: 3));
+  print("Year is " + myBirthday.year.toString());
+  print("Month is " + myBirthday.month.toString());
+  print("Day is " + myBirthday.day.toString());
+}*/
+
+
+
+
+
+
+
+
+//Find Difference Between Two Dates:
+/*
+void main() {
+  DateTime myBirthday = DateTime.parse("1997-05-14");
+  DateTime today = DateTime.now();
+  Duration diff = today.difference(myBirthday);
+  print("Difference in days: " + diff.inDays.toString());
+  print("Difference in hours: " + diff.inHours.toString());
+  print("Difference in minutes: " + diff.inMinutes.toString());
+  print("Difference in seconds: " + diff.inSeconds.toString());
+  print("Difference in milliseconds: " + diff.inMilliseconds.toString());
+  print("Difference in microseconds: " + diff.inMicroseconds.toString());
+}*/
+
+
+
+
+
+
+
+
+
+//DateTime Comparision Methods:
+void main() {
+  DateTime myBirthday = DateTime.parse("1995-03-14");
+  DateTime today = DateTime.now();
+
+  if (myBirthday.isBefore(today)) {
+    print("My Birthday is before today.");
+  } else if (myBirthday.isAfter(today)) {
+    print("My Birthday is after today.");
+  } else if (myBirthday.isAtSameMomentAs(today)) {
+    print("My Birthday date and today's date is same.");
+  }
+}
