@@ -347,14 +347,27 @@ print(numberone > numbertwo);
 
 
 
-int x = 20;
+/*int x = 20;
 
 print("Enter Your Name: ");
 String? name = stdin.readLineSync();
 print("Your Name is $name");
-print(x);
+print(x);*/
 
 
+
+
+stdout.write("Enter Your Number One: ");
+int numberOne = int.parse(stdin.readLineSync()!);
+
+stdout.write("Enter Your Number Two: ");
+int numberTwo = int.parse(stdin.readLineSync()!);
+
+int result = numberOne + numberTwo;
+double division = numberOne / numberTwo;
+
+print('Sum: $result');
+print('division: $division');
   }
 
 
