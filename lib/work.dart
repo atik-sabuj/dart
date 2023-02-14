@@ -351,6 +351,7 @@ int x = 20;
 
 print("Enter Your Name: ");
 String? name = stdin.readLineSync();
+print("Your Name is $name");
 print(x);
 
 
