@@ -336,14 +336,22 @@ print(marks);
 print(temp);*/
 
 
+/*
 int numberone = 10;
 int numbertwo = 20;
 bool result = true;
 
 print(numberone > numbertwo);
 
+*/
 
 
+
+int x = 20;
+
+print("Enter Your Name: ");
+String? name = stdin.readLineSync();
+print(x);
 
 
   }
