@@ -321,12 +321,21 @@ print('When Celsious is $celsius, then Farenhite is $fahrenheit');*/
 
 
 
-String age = 'Hello World';
+/*String age = 'Hello World';
 String address = '1020304870';
 
 print(age.length);
 print(address.length);
-print(age[0]);
+print(age[0]);*/
+
+
+double temp = 23.5;
+int age = 20, marks = 25;
+print(age);
+print(marks);
+print(temp);
+
+
 
   }
 
