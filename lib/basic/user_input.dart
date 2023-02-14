@@ -48,14 +48,28 @@ void main() {
 
 
 
-void main() {
+/*void main() {
     stdout.write("Enter Value in feet: ");
     double? numberOne = double.parse(stdin.readLineSync()!);
 
     double result = numberOne / 3.2;
 
     print('$numberOne feet into $result');
-}
+}*/
 
+
+
+
+
+
+
+void main() {
+    stdout.write("Enter Temperature in Celsius: ");
+    double celsiusTemp = double.parse(stdin.readLineSync()!);
+
+    double fTem = celsiusTemp * 9 / 5 + 32;
+
+    print('temp in fahrenheit $fTem');
+}
 
 
