@@ -329,11 +329,20 @@ print(address.length);
 print(age[0]);*/
 
 
-double temp = 23.5;
+/*double temp = 23.5;
 int age = 20, marks = 25;
 print(age);
 print(marks);
-print(temp);
+print(temp);*/
+
+
+int numberone = 10;
+int numbertwo = 20;
+bool result = true;
+
+print(numberone > numbertwo);
+
+
 
 
 
