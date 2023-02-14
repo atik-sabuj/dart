@@ -318,6 +318,16 @@ fahrenheit = celsius*(9/5)+32;
 print('When Celsious is $celsius, then Farenhite is $fahrenheit');*/
 
 
+
+
+
+String age = 'Hello World';
+String address = '1020304870';
+
+print(age.length);
+print(address.length);
+print(age[0]);
+
   }
 
 
