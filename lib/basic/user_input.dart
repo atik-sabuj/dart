@@ -8,8 +8,6 @@ void main() {
   print("The entered name is ${name}");
   print("The entered name length is ${name!.length}");*//*
 
-
-
     print("Enter a floating number:");
     double number = double.parse(stdin.readLineSync()!);
     print("The entered num is $number");
@@ -32,7 +30,7 @@ void main() {
 
 
 
-void main() {
+/*void main() {
     stdout.write("Enter Your Number One: ");
     int numberOne = int.parse(stdin.readLineSync()!);
 
@@ -44,10 +42,20 @@ void main() {
 
     print('Sum: $result');
     print('division: $division');
+}*/
+
+
+
+
+
+void main() {
+    stdout.write("Enter Value in feet: ");
+    double? numberOne = double.parse(stdin.readLineSync()!);
+
+    double result = numberOne / 3.2;
+
+    print('$numberOne feet into $result');
 }
-
-
-
 
 
 
